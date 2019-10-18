@@ -1,4 +1,4 @@
-# Stylized-Imagenet-Tensorflow-weights
+# Stylized Imagenet Tensorflow weights
 
 Feature weights for VGG16 model for Stylized Imagenet ([https://github.com/rgeirhos/texture-vs-shape](https://github.com/rgeirhos/texture-vs-shape)), converted from pytorch with feature backpropagation examples. This is my toy test of how Stylized Imagenet features are better for perceptual loss compared to vanilla Imagenet pretrain. Perhaps my implementation is lame and the weights in tensorflow are not reused, you can rewrite it better.
 
