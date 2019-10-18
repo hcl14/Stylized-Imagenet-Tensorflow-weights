@@ -11,7 +11,7 @@ To run:
 1. You can either clone the author's repository with weights: [https://bitbucket.org/robert_geirhos/texture-vs-shape-pretrained-models/src](https://bitbucket.org/robert_geirhos/texture-vs-shape-pretrained-models/src)
 Then uncomment in `torch_backprop.py` the part which loads weights and generates pickle file.
 
-2. [Download generated pickle file with numpy weights for feature layers](https://drive.google.com/file/d/1k9mA4gPedfRSRUdZqRdXi4dLop-ythw_/view?usp=sharing)
+2. Or just [download generated pickle file with numpy weights for feature layers](https://drive.google.com/file/d/1k9mA4gPedfRSRUdZqRdXi4dLop-ythw_/view?usp=sharing)
 
 Then use `tf_backprop.py` to test feature backpropagation in tensorflow. Other models can be converted this way, if you take time to implement them.
 
