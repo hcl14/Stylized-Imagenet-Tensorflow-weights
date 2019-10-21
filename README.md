@@ -3,8 +3,12 @@
 Feature weights for VGG16 model for Stylized Imagenet ([https://github.com/rgeirhos/texture-vs-shape](https://github.com/rgeirhos/texture-vs-shape)), converted from pytorch with feature backpropagation examples. This is my toy test of how Stylized Imagenet features are better for perceptual loss compared to vanilla Imagenet pretrain. Perhaps my implementation is lame and the weights in tensorflow are not reused, you can rewrite it better.
 
 `torch_backprop.py` - testing perceptual loss in pytorch using average pooling, attempting to restore reference image to `out.png`.
+![out.png](/out.png?raw=true "pytorch, avg pooling")
+
 
 `tf_backprop.py` - testing perceptual loss in tensorflow with converted weights, using much better, but more complicated loss, which combines average pooling with max pooling with memorized pooling indices. Attempting to restore reference image to `out1.png`.
+![out1.png](/out1.png?raw=true "tensorflow, avg + max(memorized) pooling")
+
 
 To run:
 
